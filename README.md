@@ -44,6 +44,9 @@ For example, to solve puzzle 1 using random scanning, run:
 
 Feel free to explore and modify the code to suit your needs.
 
+## External reference
+For more information about the puzzles, visit [https://privatekeys.pw/puzzles/bitcoin-puzzle-tx](https://privatekeys.pw/puzzles/bitcoin-puzzle-tx).
+
 <!--## License
 
 This project is licensed under the [MIT License](LICENSE).-->
