@@ -15,6 +15,7 @@ To run this script, you need the following dependencies:
 ## Usage
 
 1. Clone the repository or download the `bitcoin_puzzle_solver.py` file.
+
 `git clone <repository_url>`
 
 3. Install the required dependencies as mentioned above.
