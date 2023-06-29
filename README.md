@@ -19,6 +19,9 @@ To run this script, you need the following dependencies:
 `git clone <repository_url>`
 
 3. Install the required dependencies as mentioned above.
+
+`pip install bitcoin`
+
 4. Open a terminal or command prompt.
 5. Navigate to the directory containing the script.
 6. Run the script with the following command:
