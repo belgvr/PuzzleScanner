@@ -24,18 +24,28 @@ To run this script, you need the following dependencies:
 
 4. Open a terminal or command prompt.
 5. Navigate to the directory containing the script.
-6. Run the script with the following command:
+6. use `-h` argument to display this help:
+
+~~~
+Solve bitcoin puzzles.
+Optional arguments:
+  -h, --help  show this help message and exit
+  -p P        Puzzle ID to attempt
+  -m {0,1}    Scan mode: 0 for random, 1 for incremental
+~~~
+
+7. Run the script with the following command:
 
 `python bitcoin_puzzle_solver.py -p <puzzle_id> -m <mode>`
 
 Replace `<puzzle_id>` with the ID of the Bitcoin puzzle you want to solve (1 to 10). Replace `<mode>` with the scan mode: `0` for random scanning or `1` for incremental scanning.
-For example, to solve puzzle 1 using random scanning, run:
+For example, to solve puzzle 1 using incremental scanning, run:
 
 `python bitcoin_puzzle_solver.py -p 1 -m 0`
 
 
-6. The script will start scanning for matching Bitcoin addresses within the specified range. The progress will be displayed in the terminal.
-7. If a match is found, the script will display the private key, the compressed Bitcoin address, and create a file named `FOUND_<target_address>.txt` with the match details.
+8. The script will start scanning for matching Bitcoin addresses within the specified range. The progress will be displayed in the terminal.
+9. If a match is found, the script will display the private key, the compressed Bitcoin address, and create a file named `FOUND_<target_address>.txt` with the match details.
 
 ![image](https://github.com/belgvr/PuzzleScanner/assets/31529658/1531ab90-f9cc-4010-9fe0-27ba56187177)
 
