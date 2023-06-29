@@ -1,6 +1,9 @@
 # Bitcoin Puzzle Solver
 
 This Python script solves Bitcoin puzzles by searching for matching Bitcoin addresses within a given range. It supports two scanning modes: random scanning and incremental scanning.
+The logic behind this script is to systematically generate Bitcoin addresses within a given range and check if they match the target address of the puzzle. However, solving Bitcoin puzzles through exhaustive scanning like this can be incredibly time-consuming and impractical due to the colossal number of possible addresses. In fact, the chances of finding a match through this method alone are highly dependent on luck.
+You might need an extraordinary stroke of luck to stumble upon the correct private key and address combination.
+Therefore, while this script provides a starting point, it's crucial to explore alternative approaches such as GPU implementation or leveraging specialized hardware to significantly speed up the process. I'm open to new ideas and innovations to tackle these puzzles more efficiently and effectively!
 
 ## Dependencies
 
