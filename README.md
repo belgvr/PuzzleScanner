@@ -28,6 +28,9 @@ For example, to solve puzzle 1 using random scanning, run:
 6. The script will start scanning for matching Bitcoin addresses within the specified range. The progress will be displayed in the terminal.
 7. If a match is found, the script will display the private key, the compressed Bitcoin address, and create a file named `FOUND_<target_address>.txt` with the match details.
 
+![image](https://github.com/belgvr/PuzzleScanner/assets/31529658/1531ab90-f9cc-4010-9fe0-27ba56187177)
+
+
 ## How It Works
 
 1. The script takes a puzzle ID and scan mode as command-line arguments.
