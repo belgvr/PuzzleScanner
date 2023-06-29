@@ -41,6 +41,6 @@ For example, to solve puzzle 1 using random scanning, run:
 
 Feel free to explore and modify the code to suit your needs.
 
-## License
+<!--## License
 
-# This project is licensed under the [MIT License](LICENSE).
+This project is licensed under the [MIT License](LICENSE).-->
