@@ -43,4 +43,4 @@ Feel free to explore and modify the code to suit your needs.
 
 ## License
 
-This project is licensed under the [MIT License](LICENSE).
+# This project is licensed under the [MIT License](LICENSE).
