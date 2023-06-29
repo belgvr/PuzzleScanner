@@ -15,10 +15,12 @@ To run this script, you need the following dependencies:
 ## Usage
 
 1. Clone the repository or download the `bitcoin_puzzle_solver.py` file.
-2. Install the required dependencies as mentioned above.
-3. Open a terminal or command prompt.
-4. Navigate to the directory containing the script.
-5. Run the script with the following command:
+`git clone <repository_url>`
+
+3. Install the required dependencies as mentioned above.
+4. Open a terminal or command prompt.
+5. Navigate to the directory containing the script.
+6. Run the script with the following command:
 
 `python bitcoin_puzzle_solver.py -p <puzzle_id> -m <mode>`
 
